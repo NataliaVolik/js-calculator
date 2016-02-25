@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-size: cover;
+    background: #454545;
+}
+
+body {
+    color: #838383;
+    font-family: Helvetica Neue, Verdana, sans-serif;
+    font-size: 19px;
+}
+
+#calculator {
+    width: 260px;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+    background: linear-gradient(#A1A1A1, #838383);
+    border-radius: 6px;
+}
+
+.top .screen {
+    height: 50px;
+    width: 220px;
+    padding: 0 10px;
+    background: #F1F1F1;
+    font-size: 17px;
+    line-height: 40px;
+    color: #A4A4A4;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.keyboard, .top {
+    overflow: hidden;
+}
+
+.keyboard span, .top span.clear {
+    float: left;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 47px;
+    background: #EAEAEA;
+    border: 2px solid #A6A6A6;
+    border-radius: 30px;
+    margin: 0 5px 11px 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.keyboard span.operator {
+    margin-right: 0;
+}
+
+.keyboard span.eval{
+    width: 70px;
+    margin-right: 38px;
+    margin-left: 20px;
+    height: 55px;
+    line-height: 46px;
+}
+
+.keyboard span.clear{
+    width: 70px;
+    height: 55px;
+    line-height: 46px;
+}
