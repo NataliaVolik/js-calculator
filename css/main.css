@@ -30,8 +30,8 @@ body {
     width: 220px;
     padding: 0 10px;
     background: #F1F1F1;
-    font-size: 17px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 46px;
     color: #A4A4A4;
     text-align: right;
     letter-spacing: 1px;
@@ -42,7 +42,7 @@ body {
     overflow: hidden;
 }
 
-.keyboard span, .top span.clear {
+.keyboard span, .top span.btn-clear {
     float: left;
     position: relative;
     top: 0;
@@ -57,11 +57,11 @@ body {
     text-align: center;
 }
 
-.keyboard span.operator {
+.keyboard span.btn-operator {
     margin-right: 0;
 }
 
-.keyboard span.eval{
+.keyboard span.btn-eval{
     width: 70px;
     margin-right: 38px;
     margin-left: 20px;
@@ -69,7 +69,7 @@ body {
     line-height: 46px;
 }
 
-.keyboard span.clear{
+.keyboard span.btn-clear{
     width: 70px;
     height: 55px;
     line-height: 46px;
